@@ -4,4 +4,5 @@
     <string name="email">Email</string>
     <string name="mot_de_passe">Mot de passe</string>
     <string name="cr_er">Créer</string>
+    <string name="connexion">Connexion</string>
 </resources>
