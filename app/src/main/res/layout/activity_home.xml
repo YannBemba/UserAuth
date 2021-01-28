@@ -67,6 +67,7 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/white"
         android:text="@string/modifier"
+        android:textColor="@color/black"
         android:textSize="20sp"
         android:fontFamily="@font/poppins_semibold"
         android:layout_margin="20dp"

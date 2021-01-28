@@ -12,5 +12,6 @@
     <!-- Google Sign In -->
     
     <string name="webclient_id">920657750542-kd0vqtid3e2bf4mi9a4javo88q5v9he3.apps.googleusercontent.com</string>
-    
+    <string name="se_connecter">Se connecter</string>
+
 </resources>

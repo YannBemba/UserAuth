@@ -31,6 +31,11 @@ class LogInActivity : AppCompatActivity() {
             registerUser()
         }
 
+        binding.tvSeConnecter.setOnClickListener {
+            val intent = Intent(this@LogInActivity, SignInActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 
     private fun registerUser() {
@@ -63,8 +68,6 @@ class LogInActivity : AppCompatActivity() {
                 .setTitle("Erreur de connexion")
                 .setMessage("Vous n'êtes pas inscrit ")
                 .show()
-            val intent = Intent(this@LogInActivity, SignInActivity::class.java)
-            startActivity(intent)
         } else {
             MaterialAlertDialogBuilder(this)
                 .setTitle("Connexion réussie")

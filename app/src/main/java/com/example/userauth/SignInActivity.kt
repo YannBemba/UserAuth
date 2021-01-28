@@ -77,8 +77,6 @@ class SignInActivity : AppCompatActivity() {
                 .setTitle("Erreur de connexion")
                 .setMessage("Vous n'êtes pas inscrit ")
                 .show()
-            val intent = Intent(this@SignInActivity, HomeActivity::class.java)
-            startActivity(intent)
 
         } else {
             MaterialAlertDialogBuilder(this)
@@ -122,6 +120,8 @@ class SignInActivity : AppCompatActivity() {
                 withContext(Dispatchers.Main){
                     Toast.makeText(this@SignInActivity, "Connexion réussie", Toast.LENGTH_LONG)
                             .show()
+                    val intent = Intent(this@SignInActivity, HomeActivity::class.java)
+                    startActivity(intent)
                 }
             } catch (e: Exception){
                 withContext(Dispatchers.Main) {
