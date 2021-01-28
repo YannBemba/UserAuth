@@ -7,4 +7,10 @@
     <string name="connexion">Connexion</string>
     <string name="modifier">Modifier</string>
     <string name="utilisateur">Utilisateur</string>
+    <string name="google_sign_in">Se connecter avec Google</string>
+
+    <!-- Google Sign In -->
+    
+    <string name="webclient_id">920657750542-kd0vqtid3e2bf4mi9a4javo88q5v9he3.apps.googleusercontent.com</string>
+    
 </resources>
