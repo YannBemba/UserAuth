@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">UserAuth</string>
+    <string name="inscription">Inscription</string>
+    <string name="email">Email</string>
+    <string name="mot_de_passe">Mot de passe</string>
+    <string name="cr_er">Créer</string>
+</resources>
