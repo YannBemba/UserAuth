@@ -45,6 +45,10 @@ class SignInActivity : AppCompatActivity() {
                     withContext(Dispatchers.Main){
                         checkLoggedInState()
                     }
+                    withContext(Dispatchers.IO) {
+                        val intent = Intent(this@SignInActivity, HomeActivity::class.java)
+                        startActivity(intent)
+                    }
                 } catch (e: Exception) {
                     withContext(Dispatchers.IO){
                         Toast.makeText(this@SignInActivity, e.message, Toast.LENGTH_LONG)

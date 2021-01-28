@@ -5,4 +5,6 @@
     <string name="mot_de_passe">Mot de passe</string>
     <string name="cr_er">Créer</string>
     <string name="connexion">Connexion</string>
+    <string name="modifier">Modifier</string>
+    <string name="utilisateur">Utilisateur</string>
 </resources>

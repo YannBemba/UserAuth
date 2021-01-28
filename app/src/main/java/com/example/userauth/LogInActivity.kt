@@ -57,7 +57,8 @@ class LogInActivity : AppCompatActivity() {
     }
 
     private fun checkLoggedInState() {
-        if(mAuth.currentUser == null) {
+        val user = mAuth.currentUser
+        if(user == null) {
             MaterialAlertDialogBuilder(this)
                 .setTitle("Erreur de connexion")
                 .setMessage("Vous n'êtes pas inscrit ")
